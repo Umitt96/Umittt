@@ -1,0 +1,20 @@
+print("(Bakkal konuşuyor)")
+cevap = input("bozuk kalmamış, şurdan iki tane sakız almak ister misin?\n")
+#kullanıcının vereceği cevabın neye dair olduğunu yazıyoruz ^
+if cevap == "evet":
+    print("naneliler 75 kuruş öbüründen al")
+    #bu ^ hizadaki çıktı, belirtilen cevabı (evet) yazdığımızda ekrana gelecek 
+
+elif cevap =="hayır":
+    print("neyse bir dahaki gelişinde veririm")
+    
+
+
+elif cevap== "hep böyle yapıyorsun, bana para üstümü ver":
+    print("sakin ol yegenim yaw")
+    #bunu öylesine yazdım :D
+
+    
+else:
+    print("anlamadım?")
+    #kullanıcı bu değerler dışında bir şey yazarsa ekrana gelecek 
