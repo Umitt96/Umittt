@@ -7,14 +7,7 @@ if cevap == "evet":
 
 elif cevap =="hayır":
     print("neyse bir dahaki gelişinde veririm")
-    
 
-
-elif cevap== "hep böyle yapıyorsun, bana para üstümü ver":
-    print("sakin ol yegenim yaw")
-    #bunu öylesine yazdım :D
-
-    
 else:
     print("anlamadım?")
     #kullanıcı bu değerler dışında bir şey yazarsa ekrana gelecek 
